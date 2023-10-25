@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 class App {
     void run() {
+        System.out.println("== 명언 앱 ==");
         while (true) {
-            System.out.println("== 명언 앱 ==");
-
             System.out.print("명령) ");
 
             Scanner scanner = new Scanner(System.in);
